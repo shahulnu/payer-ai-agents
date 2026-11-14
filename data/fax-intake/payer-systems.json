@@ -1,0 +1,20 @@
+{
+  "note": "Synthetic records for the mock payer-systems MCP server. Not real people, providers or policies.",
+  "members": [
+    { "id": "M-30117", "name": "Maria Delgado", "dob": "1971-04-12", "plan": "Commercial PPO (sample)", "coverage": { "start": "2025-01-01", "end": null } },
+    { "id": "M-30244", "name": "Thomas Reed", "dob": "1958-09-03", "plan": "Commercial HMO (sample)", "coverage": { "start": "2023-01-01", "end": "2026-09-30" } },
+    { "id": "M-30388", "name": "Linda Park", "dob": "1963-02-27", "plan": "Medicare Advantage PPO (sample)", "coverage": { "start": "2024-01-01", "end": null } },
+    { "id": "M-30451", "name": "Kevin Osei", "dob": "1985-11-08", "plan": "Commercial PPO (sample)", "coverage": { "start": "2026-01-01", "end": null } }
+  ],
+  "providers": [
+    { "npi": "1452369873", "name": "Priya Nair, MD", "practice": "Lakeside Spine & Sports", "specialty": "Physical Medicine & Rehabilitation", "network": "in" },
+    { "npi": "1765432103", "name": "Helen Ward, MD", "practice": "Northgate Family Practice", "specialty": "Family Medicine", "network": "in" },
+    { "npi": "1987654328", "name": "Daniel Okafor, MD", "practice": "Riverside Orthopedics", "specialty": "Orthopedic Surgery", "network": "in" },
+    { "npi": "1234567893", "name": "Samuel Reyes, MD", "practice": "Metro Neurology Group", "specialty": "Neurology", "network": "out" }
+  ],
+  "policies": [
+    { "id": "DEMO-IMG-014", "title": "MRI of the lumbar spine for low back pain", "codes": ["72148", "72149", "72158"], "requiresAuth": true },
+    { "id": "DEMO-ORT-007", "title": "Total knee arthroplasty", "codes": ["27447"], "requiresAuth": true },
+    { "id": "DEMO-RX-031", "title": "Semaglutide (Wegovy) for chronic weight management", "codes": ["J3490"], "requiresAuth": true }
+  ]
+}
